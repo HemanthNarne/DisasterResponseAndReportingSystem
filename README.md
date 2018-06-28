@@ -6,6 +6,12 @@ Link: https://docs.google.com/spreadsheets/d/1m398aXr_zSr4an6LZbqqsNyIClPgpmom-6
 # Trello
 Link: https://trello.com/b/AYCIVIOL/web-application-development
 
+# Mobile Application Repo
+Link: https://github.com/HemanthNarne/DisasterResponseAndMitigationSystem-MobileApp
+
+# Web Application Repo
+Link: https://github.com/HemanthNarne/DisasterResponseAndMitigationSystem-Website
+
 # Team Contact Info
 
 Chandra Mouli Kantipudi	
