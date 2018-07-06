@@ -36,6 +36,8 @@ Link: https://github.com/HemanthNarne/DisasterResponseAndMitigationSystem-Mobile
 # Web Application Repo
 Link: https://github.com/HemanthNarne/DisasterResponseAndMitigationSystem-Website
 
+## Ionic Advanced Validation Reference Link
+Link: https://www.joshmorony.com/advanced-forms-validation-in-ionic-2/
 # Team Contact Info
 
 Chandra Mouli Kantipudi	
