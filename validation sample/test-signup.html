@@ -1,0 +1,113 @@
+<!--
+  Generated template for the TestSignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            Sign Up
+        </ion-title>
+        <ion-buttons start>
+            <button ion-button icon-left (click)="prev()">
+                <ion-icon name="arrow-back"></ion-icon> Prev</button>
+        </ion-buttons>
+        <ion-buttons end>
+            <button ion-button icon-right (click)="next()">Next
+                <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>
+    <ion-slides #signupSlider>
+
+        <ion-slide>
+
+
+
+            <ion-list>
+
+                <form [formGroup]="slideOneForm">
+
+                    <ion-item>
+                        <ion-label floating>First Name</ion-label>
+                        <ion-input formControlName="firstName" type="text"></ion-input>
+                    </ion-item>
+
+                    <ion-item no-lines>
+                        <p *ngIf="submitAttempt1" style="color: #ea6153;">
+                            Please fill first Name accurately.</p>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label floating>Last Name</ion-label>
+                        <ion-input formControlName="lastName" type="text"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label floating>Age</ion-label>
+                        <ion-input formControlName="age" type="number"></ion-input>
+                    </ion-item>
+
+                </form>
+
+            </ion-list>
+
+
+        </ion-slide>
+
+        <ion-slide>
+
+            <br />
+            <ion-list no-lines>
+
+                <form [formGroup]="slideTwoForm">
+
+                    <ion-item>
+                        <ion-label floating>Username</ion-label>
+                        <ion-input formControlName="username" type="text"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label floating>Privacy</ion-label>
+                        <ion-select formControlName="privacy">
+                            <ion-option value="public" checked="true">Public</ion-option>
+                            <ion-option value="friends">Friends Only</ion-option>
+                            <ion-option value="private">Private</ion-option>
+                        </ion-select>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label floating>Bio</ion-label>
+                        <ion-textarea formControlName="bio"></ion-textarea>
+                    </ion-item>
+
+                </form>
+
+            </ion-list>
+
+            <button ion-button full color="primary" (click)="save()">Create Account!</button>
+
+        </ion-slide>
+
+    </ion-slides>
+
+</ion-content>
+
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>test-signup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content> -->
