@@ -23,7 +23,7 @@ https://github.com/HemanthNarne/DisasterResponseAndReportingSystem-MobileApp
 https://github.com/Kishan-Kalburgi/DisasterResponseAndReportingSystem-Backend
 
 ## About this repository:
-  This repository deals with web related aspects, which includes the EOC(admin) part. 
+  This repository deals with all the artifacts involved in whole project. 
 
 # Web Application live
 Link: https://drrs.herokuapp.com/#/login
