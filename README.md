@@ -9,7 +9,7 @@ Community Emergency Response Team (CERT) visits the disaster affected area and s
 ### Application:
 This project involves two different applications: a web application and a mobile application. Web application will be accessed by the EOC to perform opertions like sending notifications to the CERT teams about the disaster, collecting and reviewing the reports sent by the CERT team about the disasters and keeping the track of armed forces/emergency response teams. Mobile application will be accessed by the CERT team members to perform operations like mobile application signup, login, submit cert application form to join cert teams, receiving notificaitons about disaster and sending of disaster report after visit.
 
-## All repositories involved in this project:  
+# All repositories involved in this project:  
 ### Disaster Response And Reporting System(For project artifacts):  
 https://github.com/HemanthNarne/DisasterResponseAndReportingSystem   
 
