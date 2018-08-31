@@ -62,3 +62,5 @@ Vineeth Agarwal
 6605413180	
 vineeth.agarwal06@gmail.com	
 S530671@nwmissouri.edu
+
+Free timings of every one in the team MWF after 2pm and on TR after 3.30 pm 
