@@ -70,3 +70,5 @@ https://docs.angularjs.org/guide/unit-testing link for knowledge on angular test
 https://ionicframework.com/docs/v1/guide/testing.html
 
 https://blog.ionicframework.com/using-testflight-for-user-testing-with-ionic/
+
+https://stackoverflow.com/questions/42511273/automation-testing-tool-framework-for-ionic-cordova-hybrid-app
