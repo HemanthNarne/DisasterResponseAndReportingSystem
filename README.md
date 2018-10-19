@@ -66,3 +66,5 @@ S530671@nwmissouri.edu
 Free timings of every one in the team MWF after 2pm and on TR after 3.30 pm 
 
 https://docs.angularjs.org/guide/unit-testing link for knowledge on angular testing 
+
+https://ionicframework.com/docs/v1/guide/testing.html
