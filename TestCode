@@ -1,0 +1,12 @@
+import org.openqa.selenium.support.ui.Select;
+Use our previous post to locate elements with Selenium WebDriver.
+
+1
+Select dropdown = new Select(driver.findElement(By.id("identifier")));
+Let’s consider the following dropdown element for our example:
+
+<select id="mySelect">
+<option value="option1">France</option>
+<option value="option2">Italy</option>
+<option value="option3">Spain</option>
+</select>
