@@ -1,0 +1,25 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+ 
+public class ButtonClick {
+ 
+public static void main(String args[]){
+ 
+  System.setProperty("webdriver.chrome.driver","Path to your chromedriver.exe file");
+  WebDriver driver = new ChromeDriver();
+  driver.get("http://gmail.com/");
+  driver.manage().window().maximize();
+  WebElement EmailID = driver.findElement(By.id("Email"));
+  //WebElement Searchbox = driver.findElement(By.name("Email"));
+  //WebElement Searchbox = driver.findElement(By.xpath("//input[@id='Email']"));
+  //WebElement Searchbox = driver.findElement(By.xpath("//input[@placeholder='Enter your email']"));
+  EmailID.sendKeys("abc@gmail.com");
+  WebElement bNext = driver.findElement(By.id("next"));
+  //WebElement bNext = driver.findElement(By.class("rc-button rc-button-submit"));
+  //WebElement bNext = driver.findElement(By.name("signIn"));
+  //WebElement bNext = driver.findElement(By.xpath("//input[@value='Next'));
+  bNext.click();
+ }
+}</span>
