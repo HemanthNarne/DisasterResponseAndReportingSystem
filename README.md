@@ -66,10 +66,4 @@ S530671@nwmissouri.edu
 
 Free timings of every one in the team MWF after 2pm and on TR after 3.30 pm 
 
-https://docs.angularjs.org/guide/unit-testing link for knowledge on angular testing 
-
-https://ionicframework.com/docs/v1/guide/testing.html
-
-https://blog.ionicframework.com/using-testflight-for-user-testing-with-ionic/
-
-https://stackoverflow.com/questions/42511273/automation-testing-tool-framework-for-ionic-cordova-hybrid-app
+<span style="font-size: 12pt; font-family: helvetica, arial, sans-serif;">import org.openqa.selenium.WebElement;</span>
