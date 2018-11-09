@@ -1,0 +1,15 @@
+  public void testCode(){
+        Random randomNo = new Random();
+        TestListenerAdapter listener = new TestListenerAdapter();
+        TestNG testng = new TestNG();
+
+        //Here you are changing Output directory and archive it for further 
+        //use, OUTPUT FOLDER WILL BE ADDED BY APPPENDING RANDOM NUMBER ON IT
+        testng.setOutputDirectory("test-output"+randomNo.nextInt());
+
+        //ADD ALL TEST CLASSES WHERE YOUR TESTNG CODE IS PRESENT WITH @Test 
+        testng.setTestClasses(new Class[]{TestClass.class});
+        testng.addListener(listener);
+        testng.run();
+    }
+}
